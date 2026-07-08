@@ -1,11 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import {
-  UploadCloud,
-  ArrowRight,
-  Sparkles,
-} from "lucide-react";
+import { UploadCloud } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
 
@@ -77,22 +73,8 @@ export default function Navbar() {
 
         {/* CTA */}
 
-        <Button
-          onClick={scrollToUpload}
-          className="group relative overflow-hidden rounded-xl bg-cyan-500 px-6 text-black transition-all duration-300 hover:scale-105 hover:bg-cyan-400 hover:shadow-[0_0_35px_rgba(6,182,212,.45)] active:scale-95"
-        >
-
-          <span className="relative z-10 flex items-center">
-
-            <Sparkles className="mr-2 h-4 w-4" />
-
-            Get Started
-
-            <ArrowRight className="ml-2 h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
-
-          </span>
-
-        </Button>
+      
+       
 
       </div>
     </motion.header>

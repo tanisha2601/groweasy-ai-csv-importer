@@ -103,7 +103,7 @@ export default function Dropzone({ onFileSelect }: DropzoneProps) {
 
           <div>Excel Export</div>
         </div>
-         </motion.div>
+        </motion.div>
     </div>
   );
 }
